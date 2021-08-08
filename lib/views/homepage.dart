@@ -1,7 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:genxp/services/api_manager.dart';
+import '../models/album.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  late Future<Album> _newAlbum;
+  @override
+  void initState() {
+    _newAlbum = API_manager().getNews();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
