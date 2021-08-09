@@ -39,7 +39,7 @@ final String server =
     defaultTargetPlatform == TargetPlatform.android ? "10.0.2.2" : "localhost";
 final List<Kitten> _kittens = <Kitten>[
   Kitten(
-    name: 'mitten',
+    name: 'Mitten',
     description: 'the principle of cat when mitten sits in your lab '
         ' your feel like royalty',
     age: 11,
