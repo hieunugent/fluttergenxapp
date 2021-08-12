@@ -19,4 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 - choice will be select and add up to total value
 - the payment will be selected add demand 
     - cash wll pay and add to customer list of who do the Job
-    - Credit will be pay through the Clover or any other app
+    - Credit will be pay through the Clover or any other credit payment API
+    - after pay all Transaction will be save in database with all neccessary infomation
+# build review system 
+- 
