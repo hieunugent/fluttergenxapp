@@ -22,4 +22,10 @@ samples, guidance on mobile development, and a full API reference.
     - Credit will be pay through the Clover or any other credit payment API
     - after pay all Transaction will be save in database with all neccessary infomation
 # build review system 
-- 
+- customer input value by phone
+- share link review to customer
+- if 5 Start then upload it to google review page 
+- if it lower then offset start then do fixing problem 
+- fixing problem will be sent to manager, manager will resolve problem by case
+    - asking the custommer to review it again
+    - then upload the rating 
