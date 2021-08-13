@@ -29,3 +29,4 @@ samples, guidance on mobile development, and a full API reference.
 - fixing problem will be sent to manager, manager will resolve problem by case
     - asking the custommer to review it again
     - then upload the rating 
+# all thing need to preview and push to same app as posible
