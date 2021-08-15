@@ -31,4 +31,7 @@ samples, guidance on mobile development, and a full API reference.
     - then upload the rating 
 # all thing need to preview and push to same app as posible
 - task/Item will be display as a widget and contain all info posible
-- 
+- all data transaction will be save in cloud
+- the function will given the who, when , what, and which
+- the final can calculate the income/salary/tax...
+
