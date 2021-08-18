@@ -2,6 +2,7 @@
 //
 //     final users = usersFromJson(jsonString);
 
+import 'package:meta/meta.dart';
 import 'dart:convert';
 
 List<User> usersFromJson(String str) =>
@@ -12,14 +13,14 @@ String usersToJson(List<User> data) =>
 
 class User {
   User({
-    this.id,
-    this.name,
-    this.username,
-    this.email,
-    this.address,
-    this.phone,
-    this.website,
-    this.company,
+    required this.id,
+    required this.name,
+    required this.username,
+    required this.email,
+    required this.address,
+    required this.phone,
+    required this.website,
+    required this.company,
   });
 
   int id;
@@ -56,11 +57,11 @@ class User {
 
 class Address {
   Address({
-    this.street,
-    this.suite,
-    this.city,
-    this.zipcode,
-    this.geo,
+    required this.street,
+    required this.suite,
+    required this.city,
+    required this.zipcode,
+    required this.geo,
   });
 
   String street;
@@ -88,8 +89,8 @@ class Address {
 
 class Geo {
   Geo({
-    this.lat,
-    this.lng,
+    required this.lat,
+    required this.lng,
   });
 
   String lat;
@@ -108,9 +109,9 @@ class Geo {
 
 class Company {
   Company({
-    this.name,
-    this.catchPhrase,
-    this.bs,
+    required this.name,
+    required this.catchPhrase,
+    required this.bs,
   });
 
   String name;
