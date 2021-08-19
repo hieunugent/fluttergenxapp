@@ -10,7 +10,7 @@ class JsonParseImage extends StatefulWidget {
 }
 
 class _JsonParseImageState extends State<JsonParseImage> {
-  late List<Image> _images;
+  late List<Photo> _images;
   late bool _loading;
   @override
   void initState() {
@@ -32,8 +32,15 @@ class _JsonParseImageState extends State<JsonParseImage> {
         title: Text(_loading ? 'Loading....' : 'Images'),
       ),
       body: Container(
-        child: ListView(
+        child: ListView.builder(
           itemCount: null == _images ? 0 : _images.length,
+          itemBuilder: (context, index) {
+            Photo image = _images[index];
+            return ListTile(
+              title: Text(image.title),
+              subtitle: Text(image.url),
+            );
+          },
         ),
       ),
     );

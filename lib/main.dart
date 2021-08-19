@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+
 import 'package:genxp/views/JsonParseDemo.dart';
+import 'package:genxp/views/JsonParseImage.dart';
 import 'package:get/get.dart';
 
 void main() => runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
           textTheme: ButtonTextTheme.primary,
         ),
       ),
-      home: const JsonParseDemo(),
+      home: JsonParseImage(),
     );
   }
 }
