@@ -34,4 +34,5 @@ samples, guidance on mobile development, and a full API reference.
 - all data transaction will be save in cloud
 - the function will given the who, when , what, and which
 - the final can calculate the income/salary/tax...
+# this folder is used for practice Flutter 
 
