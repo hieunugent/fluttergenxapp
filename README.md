@@ -15,12 +15,12 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-# build POS system with integrate with all the items of choose
-- choice will be select and add up to total value
+# build POS system with integration with all the items of choose
+- choice will be select and add up to the total value
 - the payment will be selected add demand 
-    - cash wll pay and add to customer list of who do the Job
+    - cash will pay and add to the customers list of who do the Job
     - Credit will be pay through the Clover or any other credit payment API
-    - after pay all Transaction will be save in database with all neccessary infomation
+    - after pay, all Transaction will be saved in database with all necessary information
 # build review system 
 - customer input value by phone
 - share link review to customer
@@ -37,3 +37,6 @@ samples, guidance on mobile development, and a full API reference.
 # this folder is used for practice Flutter 
 - learning the API data call from JSON place holder Users, Photos
 
+# future project:
+- POS system
+- easy email with HTML format
